@@ -2,4 +2,16 @@ let names = ['Liam','Emma','Noah','Olivia','William','Ava','James','Isabella','L
 
 //declare your function here
 
+function filterByName(array,string){
+
+    let am=string;
+
+        return array.filter(function(value,am){
+
+            return value.includes(string);
+          
+        });
+
+};
+
 console.log(filterByName(names, 'am'));

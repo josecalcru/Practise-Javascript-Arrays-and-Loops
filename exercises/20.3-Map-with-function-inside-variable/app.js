@@ -5,3 +5,7 @@ let prepender = function(name){
 };
 
 //your code here
+
+let listOfNames=names.map(prepender);
+
+console.log(listOfNames);

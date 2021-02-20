@@ -3,4 +3,24 @@ let counts = {};
 
 // your code here
 
-console.log(counts);
+for(let i =0;i<par.length;i++){
+
+    //or use constant
+let letra=par[i].toLowerCase();
+
+
+if( letra==" "){
+
+}
+
+else if(counts[letra]==undefined){
+    counts[letra]=1;
+
+}
+
+else{
+    counts[letra] = counts[letra] + 1;
+}
+}
+
+console.log(counts)
